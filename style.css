@@ -9,6 +9,7 @@ h1 {
     letter-spacing: .6em;
     padding-top: 1em;
     padding-bottom: 1em;
+    background-color: bisque;
 }
 
 h2 {
@@ -20,6 +21,7 @@ main {
     display: grid;
     grid-template-columns: 40% 60%;
     margin-top: 3em;
+    background-color: bisque;
 }
 header {
     text-align: center;
@@ -40,7 +42,7 @@ p {
 
 hr {
     border: none;
-    background-color: lightgray;
+    background-color: black;
     height: 1px;
 }
 
