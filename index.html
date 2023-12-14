@@ -17,10 +17,26 @@
 			<article id="mainLeft">
 				<section>
 					<h2>CONTACT</h2>
-					<p>
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:kovakos95@gmail.com">kovakos95@gmail.com</a>
-                    </p>
+					<button onclick="showPopup()">View Contact Information</button>
+						<div id="contactPopup" class="popup">
+						<p>Contact Information:</p>
+						<p>Email: kovakos95@gmail.com</p>
+						<p>Phone: 06765524234</p>
+						<button onclick="hidePopup()">Close</button>
+					  	</div>
+						
+						<script>
+    					function showPopup() {
+      					document.getElementById("contactPopup").style.display = "block";
+      					document.getElementById("overlay").style.display = "block";
+    					}
+
+    					function hidePopup() {
+       					document.getElementById("contactPopup").style.display = "none";
+        				document.getElementById("overlay").style.display = "none";
+      					}
+      
+  						</script>
                     <p>
                         <i class="fab fa-github" aria-hidden="true"></i>
                         <a href="https://www.facebook.com/kovacs.akos.35">Facebook</a>
