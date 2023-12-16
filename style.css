@@ -9,7 +9,7 @@ h1 {
     letter-spacing: .6em;
     padding-top: 1em;
     padding-bottom: 1em;
-    background-color: bisque;
+    background-color: lightgrey;
 }
 
 h2 {
@@ -21,7 +21,7 @@ main {
     display: grid;
     grid-template-columns: 40% 60%;
     margin-top: 3em;
-    background-color: bisque;
+    background-color: lightgray;
 }
 header {
     text-align: center;
