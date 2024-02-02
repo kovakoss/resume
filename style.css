@@ -1,31 +1,32 @@
 body {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     max-width: 960px;
     margin: auto;
 }
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     letter-spacing: .6em;
     padding-top: 1em;
     padding-bottom: 1em;
-    background-color: lightgrey;
+    background-color:rgb(226, 192, 140);
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     padding-bottom: 1em;
 }
 
 main { 
+    letter-spacing: .1em;
     display: grid;
     grid-template-columns: 40% 60%;
-    margin-top: 3em;
-    background-color: lightgray;
+    margin-top: .5em;
+    background-color: rgb(226, 192, 140);
 }
 header {
     text-align: center;
-    margin: auto 2em;
+    margin: auto;
 }
 
 section {
@@ -38,12 +39,6 @@ i {
 
 p {
     margin: .2em auto;
-}
-
-hr {
-    border: none;
-    background-color: black;
-    height: 1px;
 }
 
 h1, h2 {
@@ -75,10 +70,15 @@ h1, h2 {
   }
 
   button {
-    background-color: green;
+    background-color: rgb(219, 106, 41);
     color: white;
-    padding: 10px 15px;
+    padding: 10px 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+  }
+  img{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
   }
